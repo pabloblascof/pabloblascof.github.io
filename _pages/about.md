@@ -9,22 +9,22 @@ redirect_from:
 
 # Hi there, I'm Pablo! 👋
 
-I am an MSc Student in Biomedical Engineering at ETH Zurich 🇨🇭 fully funded by ['la Caixa' Foundation](https://becarios.fundacionlacaixa.org/es/pablo-blasco-fernandez-B005814), currently exploring the fascinating world of deep learning, medical image analysis and computer vision. I hold a BSc in Biomedical Engineering (top 2%) from Universidad Carlos III de Madrid 🇪🇸, where my passion for this field first began.
+I am an MSc Student in Biomedical Engineering at ETH Zurich fully funded by ['la Caixa' Foundation](https://becarios.fundacionlacaixa.org/es/pablo-blasco-fernandez-B005814), currently exploring the fascinating world of deep learning, medical image analysis and computer vision. I hold a BSc in Biomedical Engineering (top 2%) from Universidad Carlos III de Madrid, where my passion for this field first began.
 
 
 ## 🧬My experience
 
 My **[CV](files/PabloBlasco_CV_Nov2024.pdf)** can be downloaded here!
 
-- 🏥 _[Sept 2024 - Present]_ Graduate researcher at the **Brigham and Women's Hospital & Harvard University** and **Massachusetts General Hospital**, working aortic root shape analysis for data-driven, patient-specific digital twins (Python, Pytorch, OpenGL, Blender, Slicer3D) under the supervision of [Farhad R. Nezami](https://farhad.mit.edu/).
+- 🏥 [Sept 2024 - Present] Graduate researcher at the **Brigham and Women's Hospital & Harvard University**, working aortic root shape analysis for data-driven, patient-specific digital twins (Python, Pytorch, OpenGL, Blender, Slicer3D) under the supervision of [Farhad R. Nezami](https://farhad.mit.edu/).
 
-- 💻 _[March 2024 - Oct 2024]_ Data Science Intern at **[Liom AG]**(https://liom.com/), working on non-invasive, calibration-free glucose estimation. Member of the Data Analytics Core Team within the Software & Machine Learning Engineering Team (Pandas, Scikit-learn, Mlflow, Numpy, Seaborn, Matplotlib)
+- 💻 [March 2024 - Oct 2024] Data Science Intern at **[Liom AG](https://liom.com/)**, working on non-invasive, calibration-free glucose estimation. Member of the Data Analytics Core Team within the Software & Machine Learning Engineering Team (Pandas, Scikit-learn, Mlflow, Numpy, Seaborn, Matplotlib)
 
-- 🏥 _[Sept 2023 - March 2024]_ Graduate researcher at the **Athinoula A. Martinos Center for Biomedical Imaging**, affiliated to **Harvard University** and **Massachusetts General Hospital**, working in 3D to 2D projections for brain surface segmentation (Python, Pytorch Lightning, Weights and Biases) under the supervision of [Juan Eugenio Iglesias](https://lemon.martinos.org/pi/).
+- 🏥 [Sept 2023 - March 2024] Graduate researcher at the **Athinoula A. Martinos Center for Biomedical Imaging**, affiliated to **Harvard University** and **Massachusetts General Hospital**, working in 3D to 2D projections for brain surface segmentation (Python, Pytorch Lightning, Weights and Biases) under the supervision of [Juan Eugenio Iglesias](https://lemon.martinos.org/pi/).
 
-- 👁️‍🗨️ _[March 2023 - Aug 2023]_ Graduate researcher at the **Computer Vision Lab of ETH Zurich**, contributing to cutting-edge research at the intersection of computer vision and deep learning trough the use of training-free neural networks (Python, Pytorch, Pandas, OpenCV) under the supervision of [Ender Konukoglu](https://people.ee.ethz.ch/~kender/index.html) .
+- 👁️‍🗨️ [March 2023 - Aug 2023] Graduate researcher at the **Computer Vision Lab of ETH Zurich**, contributing to cutting-edge research at the intersection of computer vision and deep learning trough the use of training-free neural networks (Python, Pytorch, Pandas, OpenCV) under the supervision of [Ender Konukoglu](https://people.ee.ethz.ch/~kender/index.html) .
 
-- ❤️ _[Jun 2021 - Jul 2022]_ Undergraduate Researcher at the **Spanish National Center for Cardiovascular Research (CNIC)**, finding associations between cardiovascular risk factors and cerebral blood flow trough MRI image processing (MATLAB, SPM) and statistical analysis (SPM, R) with Dr. Valentin Fuster under the supervision of [Marta Cortés Canteli](https://scholar.google.com/citations?user=83Pn7kcAAAAJ&hl=en).
+- ❤️ [Jun 2021 - Jul 2022] Undergraduate Researcher at the **Spanish National Center for Cardiovascular Research (CNIC)**, finding associations between cardiovascular risk factors and cerebral blood flow trough MRI image processing (MATLAB, SPM) and statistical analysis (SPM, R) with Dr. Valentin Fuster under the supervision of [Marta Cortés Canteli](https://scholar.google.com/citations?user=83Pn7kcAAAAJ&hl=en).
 
 ## 🌱 Current Interests
 
