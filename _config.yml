@@ -22,11 +22,12 @@ repository: "pabloblascof/pabloblascof.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "PabloBlasco_Profile_2024.png"
+  avatar           : "PabloBlasco_Profile_2024.jpg"
   name             : "Pablo Blasco Fernandez"
   pronouns         : "he/him"  
-  bio              : "ETH Zurich MSc in Biomedical Engineering - Medical Image Analysis and AI"
-  location         : "Boston, MA, UA"
+  bio              : "Biomedical Engineering - Medical Image Analysis and AI"
+  employer         : "ETH Zurich"
+  location         : "Boston, MA, USA"
   email            : "pabloblascof@gmail.com" 
 
   # Academic websites
