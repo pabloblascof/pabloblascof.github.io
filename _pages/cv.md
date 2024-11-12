@@ -46,12 +46,12 @@ Liom AG (Pffafikon, Switzerland)
 - Developed outlier detection and mitigation strategy for live measurements  
 
 **Graduate Researcher**  
-Harvard University & MGH (Boston, MA), 
+Harvard University & MGH (Boston, MA)
 *Sept 2023 – March 2024*  
 - Developed models for cortical and white matter segmentation using 3D-to-2D projections  (Published at [MLMI 2024](https://link.springer.com/chapter/10.1007/978-3-031-73290-4_8))
 
 **Graduate Researcher**  
-ETH Zurich Computer Vision Lab (Zurich, Switzerland), 
+ETH Zurich Computer Vision Lab (Zurich, Switzerland) 
 *March 2023 – Aug 2024*  
 - Research on training-free neural networks for medical images (deep decoders) 
 
@@ -73,10 +73,10 @@ Spanish National Center for Cardiovascular Research (Madrid, Spain)
 
 ## Awards and Honors
 
-- **Nova 111 List** - Top 10 Engineering Students in Spain, 2024  
-- **’la Caixa’ Fellowship** - Full tuition at any university worldwide!!, 2022  
-- **EIT Health Innovation-Days** - Gold Medal (Spain) and Bronze Medal (Europe), 2021  
-- **Engineering Medicine** - Bronze Medal: Top 3 case study solutions, 2021
+- **Nova 111 List** - Top 10 Engineering Students in Spain (2024)  
+- **’la Caixa’ Fellowship** - Full tuition at any university worldwide!! (2022)  
+- **EIT Health Innovation-Days** - Gold Medal (Spain) and Bronze Medal (Europe) (2021)  
+- **Engineering Medicine** - Bronze Medal: Top 3 case study solutions (2021)
 
 ---
 
