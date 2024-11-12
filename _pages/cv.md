@@ -11,7 +11,6 @@ redirect_from:
 
 My (longer) **[CV](https://pabloblascof.github.io/files/PabloBlasco_CV_Nov2024.pdf)** can be downloaded here! Below you will find a brief version:
 
----
 
 ## Education
 
