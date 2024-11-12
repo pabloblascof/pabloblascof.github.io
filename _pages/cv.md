@@ -40,26 +40,25 @@ Harvard University & BWH (Boston, MA)
 - Aortic root shape analysis: CT segmentation, 3D reconstruction of aortic valves using CNNs, GANs, and GNNs  
 
 **Data Scientist Intern**  
-Liom AG (Pffafikon, Switzerland)
+Liom AG (Pffafikon, Switzerland)  
 *March 2024 – Oct 2024*  
 - Improved glucose estimation by refining KPIs 25%   
 - Developed outlier detection and mitigation strategy for live measurements  
 
 **Graduate Researcher**  
-Harvard University & MGH (Boston, MA)
+Harvard University & MGH (Boston, MA)  
 *Sept 2023 – March 2024*  
 - Developed models for cortical and white matter segmentation using 3D-to-2D projections  (Published at [MLMI 2024](https://link.springer.com/chapter/10.1007/978-3-031-73290-4_8))
 
 **Graduate Researcher**  
-ETH Zurich Computer Vision Lab (Zurich, Switzerland) 
+ETH Zurich Computer Vision Lab (Zurich, Switzerland)  
 *March 2023 – Aug 2024*  
-- Research on training-free neural networks for medical images (deep decoders) 
+- Research on training-free neural networks for medical images (deep decoders)  
 
 **Undergraduate Researcher**  
-Spanish National Center for Cardiovascular Research (Madrid, Spain)
+Spanish National Center for Cardiovascular Research (Madrid, Spain)  
 *June 2021 – July 2022*  
 - Finding relationships between cardiovascular risk factors and brain perfusion with MRI data analysis
-
 ---
 
 ## Institutional Service
