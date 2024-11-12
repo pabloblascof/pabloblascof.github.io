@@ -3,9 +3,9 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+hide_footer: true
 redirect_from:
   - /publications
-  hide_footer: true
 
 ---
 
