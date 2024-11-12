@@ -16,7 +16,7 @@ I am an MSc Student in Biomedical Engineering at ETH Zurich fully funded by ['la
 
 My **[CV](files/PabloBlasco_CV_Nov2024.pdf)** can be downloaded here!
 
-- 🏥 [Sept 2024 - Present] Graduate researcher at the **Brigham and Women's Hospital & Harvard University**, working aortic root shape analysis for data-driven, patient-specific digital twins (Python, Pytorch, OpenGL, Blender, Slicer3D) under the supervision of [Farhad R. Nezami](https://farhad.mit.edu/).
+- 🏥 [Sept 2024 - Present] Graduate researcher at the **Brigham and Women's Hospital & Harvard University**, working on aortic root shape analysis for data-driven, patient-specific digital twins (Python, Pytorch, OpenGL, Blender, Slicer3D) under the supervision of [Farhad R. Nezami](https://farhad.mit.edu/).
 
 - 💻 [March 2024 - Oct 2024] Data Science Intern at **[Liom AG](https://liom.com/)**, working on non-invasive, calibration-free glucose estimation. Member of the Data Analytics Core Team within the Software & Machine Learning Engineering Team (Pandas, Scikit-learn, Mlflow, Numpy, Seaborn, Matplotlib)
 
