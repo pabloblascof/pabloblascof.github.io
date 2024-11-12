@@ -52,7 +52,7 @@ Harvard University & MGH (Boston, MA)
 
 **Graduate Researcher**  
 ETH Zurich Computer Vision Lab (Zurich, Switzerland)  
-*March 2023 – Aug 2024*  
+*March 2023 – Aug 2023*  
 - Research on training-free neural networks for medical images (deep decoders)  
 
 **Undergraduate Researcher**  
