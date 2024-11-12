@@ -16,5 +16,5 @@ redirect_from:
 <span style="font-size: 0.6em; margin: 0;">  
   <strong><em>Pablo Blasco Fernandez</em></strong>, Karthik Gopinath, John Williams-Ramirez, Rogeny Herisse, Lucas Deden-Binder, Dina Zemlyanker, Theressa Connors, Liana Kozanno, Derek Oakley, Bradley Hyman, Sean Young, Juan Eugenio Iglesias  
   <a href="https://doi.org/10.1007/978-3-031-73290-4_8">https://doi.org/10.1007/978-3-031-73290-4_8</a>  
-  <em>(Soon in Arxiv!)</em>
+  <em>(Soon in arXiv!)</em>
 </span>
