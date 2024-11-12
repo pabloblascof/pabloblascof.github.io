@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-My (longer) **[CV](/files/PabloBlasco_CV_Nov2024.pdf)** can be downloaded here! Below you will find a brief version:
+My (longer) **[CV](https://github.com/pabloblascof/pabloblascof.github.io/blob/master/files/PabloBlasco_CV_Nov2024.pdf)** can be downloaded here! Below you will find a brief version:
 
 ## Education
 
