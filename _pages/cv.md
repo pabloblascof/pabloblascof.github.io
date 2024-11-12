@@ -56,8 +56,7 @@ ETH Zurich Computer Vision Lab (Zurich, Switzerland),
 **Undergraduate Researcher**  
 Spanish National Center for Cardiovascular Research (Madrid, Spain)
 *June 2021 – July 2022*  
-- Research on training-free neural networks for medical images (deep decoders) 
-- Spanish National Center for Cardiovascular Research - MRI and PET brain image processing  
+- Finding relationships between cardiovascular risk factors and brain perfusion with MRI data analysis
 
 ---
 
