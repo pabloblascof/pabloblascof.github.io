@@ -59,6 +59,7 @@ ETH Zurich Computer Vision Lab (Zurich, Switzerland)
 Spanish National Center for Cardiovascular Research (Madrid, Spain)  
 *June 2021 – July 2022*  
 - Finding relationships between cardiovascular risk factors and brain perfusion with MRI data analysis
+
 ---
 
 ## Institutional Service
