@@ -1,8 +1,8 @@
 ---
 permalink: /
 title: ""
-hide_footer: true
 author_profile: true
+hide_footer: true
 redirect_from: 
   - /about/
   - /about.html
