@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: true
 redirect_from:
   - /publications
+  hide_footer: true
+
 ---
 
 {% include base_path %}

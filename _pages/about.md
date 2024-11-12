@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: ""
+hide_footer: true
 author_profile: true
 redirect_from: 
   - /about/
