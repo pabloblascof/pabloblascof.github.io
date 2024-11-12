@@ -12,17 +12,14 @@ redirect_from:
 My (longer) **[CV](files/PabloBlasco_CV_Nov2024.pdf)** can be downloaded here! Below you will find a brief version:
 
 ## Education
-======
 
-**MSc Biomedical Engineering**  
-ETH Zurich 
+**MSc Biomedical Engineering - ETH Zurich**  
 *Sept 2022 – May 2024*  
 - Major: AI and Medical Image Analysis 
 - Key Courses: Biomedical Imaging, Image Analysis, Computer Vision  
 - Completed 45 ECTS with a GPA of 88%; Selected twice as SEMP Scholar for research at Harvard  
 
-**BSc Biomedical Engineering**  
-Carlos III University 
+**BSc Biomedical Engineering - Carlos III University**  
 *Sept 2018 – July 2022*  
 - Ranked Top 2%   
 - Exchange at Nanyang Technological University (fully covered by KA107 Scholarship)  
@@ -33,7 +30,7 @@ Communication Skills, Robotics and Bioethics
 ---
 
 ## Experience
-======
+
 **Graduate Researcher**  
 Harvard University & BWH (Boston, MA)  
 *Sept 2024 – Present*  
@@ -64,7 +61,7 @@ Spanish National Center for Cardiovascular Research (Madrid, Spain)
 ---
 
 ## Institutional Service
-======
+
 - **AI4MED** - Corporate Relations Team Lead (Nov 2023 - Present)  
 - **BEST UC3M** - Corporate Relations Staff (Sept 2020 - Sept 2022)  
 - **TEDxUC3M** - Board of Directors - Speakers Coordinator (Sept 2020 - Sept 2022)  
@@ -73,7 +70,7 @@ Spanish National Center for Cardiovascular Research (Madrid, Spain)
 ---
 
 ## Awards and Honors
-======
+
 - **Nova 111 List** - Top 10 Engineering Students in Spain, 2024  
 - **’la Caixa’ Fellowship** - Full tuition at any university worldwide!!, 2022  
 - **EIT Health Innovation-Days** - Gold Medal (Spain) and Bronze Medal (Europe), 2021  
@@ -82,7 +79,7 @@ Spanish National Center for Cardiovascular Research (Madrid, Spain)
 ---
 
 ## Skills
-======
+
 - **Technologies:** Python, R, MATLAB, Blender, HPC, git  
 - **Languages:** Spanish (Native), English (C2), German (A2), French (A1) 
 
