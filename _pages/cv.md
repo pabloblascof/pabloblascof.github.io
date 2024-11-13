@@ -28,7 +28,7 @@ My (longer) **[CV](https://pabloblascof.github.io/files/PabloBlasco_CV_Nov2024.p
 - Exchange at Nanyang Technological University (fully covered by KA107 Scholarship)  
 - Honors: Electromagnetism, Material Science and Engineering, Linear Algebra, Information Skills, Writing and
 Communication Skills, Robotics and Bioethics
-- Thesis on Association between cerebral perfusion and cardiovascular disease (maximum grade) 
+- Thesis: Association between cerebral perfusion and cardiovascular disease (maximum grade) 
 
 ---
 
