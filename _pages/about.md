@@ -29,9 +29,9 @@ My **[CV](files/PabloBlasco_CV_Nov2024.pdf)** can be downloaded here!
 
 ## 🌱 Current Interests
 
-- 💻 Machine learning and AI in healthcare
-- 📊 Data analysis and visualization in biomedical research
-- 🏥 Medical imaging and diagnostics
+- 🏥 Medical imaging and diagnostics: How can we leverage AI for better image-based diagnostics?
+- 💻 Machine learning and AI in healthcare: What tools can make clinician's (and our) lives easier?
+- 📊 Data analysis and visualization in biomedical research: Which infomation is important for our systems to support diagnosis and treatment? How can we improve data integration from multiple sources?
 
 I'm passionate about using technology to make a positive impact on healthcare, and I'm always eager to learn and collaborate on exciting projects. 
 
