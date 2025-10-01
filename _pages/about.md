@@ -15,9 +15,13 @@ I am an MSc Student in Biomedical Engineering at ETH Zurich fully funded by ['la
 
 ## 🧬My experience
 
-My **[CV](files/PabloBlasco_CV_Nov2024.pdf)** can be downloaded here!
+My **[CV](files/PabloBlasco_CV_Oct2025.pdf)** can be downloaded here!
 
-- 🏥 [Sept 2024 - Present] <u>Graduate researcher</u> at the **Brigham and Women's Hospital & Harvard University**, working on aortic root shape analysis for data-driven, patient-specific digital twins (Python, Pytorch, OpenGL, Blender, Slicer3D) under the supervision of [Farhad R. Nezami](https://farhad.mit.edu/).
+- 💊 [June 2025 – Present] <u>AI/ML Research Intern</u> at **Roche (Basel, Switzerland)**, developing annotation strategies, hierarchical classification models, and large-scale training pipelines for endoscopy video datasets in Ulcerative Colitis, leveraging HPC environments and reproducible experiment management tools (Hydra, Git, W&B).
+
+- 🧪 [May 2025 – Present] <u>Affiliated Researcher</u> at the **Massachusetts Institute of Technology (MIT, Boston, USA)**, working on robust deep learning pipelines for tuberculosis detection from chest X-rays in collaboration with the Sri Lanka Ministry of Health. Focus on dataset curation, out-of-distribution detection, and reproducible deployment workflows.
+
+- 🫀 [Sept 2024 – July 2025] <u>Graduate Researcher</u> at **Harvard Medical School & Brigham and Women’s Hospital**, where I performed CT segmentation and statistical shape modeling of aortic valves to create patient-specific digital twins, and developed machine learning classifiers for predicting cardiac outcomes.
 
 - 💻 [March 2024 - Oct 2024] <u>Data Science Intern</u> at **[Liom AG](https://liom.com/)**, working on non-invasive, calibration-free glucose estimation. Member of the Data Analytics Core Team within the Software & Machine Learning Engineering Team (Pandas, Scikit-learn, Mlflow, Numpy, Seaborn, Matplotlib)
 
