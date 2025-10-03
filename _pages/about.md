@@ -19,7 +19,7 @@ My **[CV](files/PabloBlasco_CV_Oct2025.pdf)** can be downloaded here!
 
 - 💊 [June 2025 – Present] <u>AI/ML Research Intern</u> at **Roche**, developing annotation strategies, hierarchical classification models, and large-scale training pipelines for endoscopy video datasets in Ulcerative Colitis, leveraging HPC environments and reproducible experiment management tools (Hydra, Git, W&B).
 
-- 🧪 [May 2025 – Present] <u>Affiliated Researcher</u> at the **Massachusetts Institute of Technology**, working on robust deep learning pipelines for tuberculosis detection from chest X-rays in collaboration with the Sri Lanka Ministry of Health. Focus on dataset curation, out-of-distribution detection, and reproducible deployment workflows.
+- 🧪 [May 2025 – Present] <u>Affiliated Researcher</u> at the **Massachusetts Institute of Technology** with [Regina Barzilay](https://www.rbg.mit.edu/) working on robust deep learning pipelines for tuberculosis detection from chest X-rays in collaboration with the Sri Lanka Ministry of Health. Focus on dataset curation, out-of-distribution detection, and reproducible deployment workflows.
 
 - 🫀 [Sept 2024 – July 2025] <u>Graduate Researcher</u> at **Harvard Medical School & Brigham and Women’s Hospital**, where I performed CT segmentation and statistical shape modeling of aortic valves to create patient-specific digital twins, and developed machine learning classifiers for predicting cardiac outcomes.
 
