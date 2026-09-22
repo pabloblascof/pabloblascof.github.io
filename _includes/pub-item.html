@@ -1,0 +1,16 @@
+{% assign pub = include.pub %}
+<li class="pub">
+  <div class="pub__badge pub__badge--{{ pub.type }}">{{ pub.venue_short }}</div>
+  <div class="pub__body">
+    <h3 class="pub__title">{{ pub.title }}</h3>
+    <p class="pub__authors">{{ pub.authors | replace: site.author.name, '<span class="me">Pablo Blasco Fernandez</span>' }}</p>
+    <p class="pub__venue"><em>{{ pub.venue }}</em>{% unless pub.venue contains pub.year %}, {{ pub.year }}{% endunless %}
+      {% if pub.note %}<span class="pill pill--accent">{{ pub.note }}</span>{% endif %}
+    </p>
+    {% if pub.links and pub.links.size > 0 %}
+    <p class="pub__links">
+      {% for l in pub.links %}<a class="chip" href="{{ l.url }}"><i class="{{ l.icon }}" aria-hidden="true"></i> {{ l.label }}</a>{% endfor %}
+    </p>
+    {% endif %}
+  </div>
+</li>

@@ -1,0 +1,12 @@
+<ol class="timeline">
+  {% for e in site.data.cv.experience %}
+  <li class="timeline__item">
+    <div class="timeline__dates">{{ e.dates }}</div>
+    <div class="timeline__body">
+      <h3 class="timeline__role">{{ e.role }} <span class="timeline__org">· {{ e.org }}</span></h3>
+      {% if include.detailed %}<p class="muted small">{{ e.place }}</p>{% endif %}
+      <p>{{ e.text }}</p>
+    </div>
+  </li>
+  {% endfor %}
+</ol>

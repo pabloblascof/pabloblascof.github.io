@@ -1,0 +1,89 @@
+# Source for the Experience / Education / Awards sections. Newest first.
+
+education:
+  - degree: "PhD, Electrical Engineering and Computer Science"
+    org: "Massachusetts Institute of Technology (MIT)"
+    dates: "Sep 2026 – Present"
+    details:
+      - "AI for healthcare and medical image analysis: distribution shift, robustness, and clinical deployment in real settings."
+  - degree: "MSc, Biomedical Engineering"
+    org: "ETH Zurich"
+    dates: "Sep 2022 – May 2025"
+    details:
+      - "Major in Bioimaging. GPA 5.5/6, fully funded by a 'la Caixa' Foundation Fellowship."
+      - "Selected twice as SEMP Scholar for research stays at Harvard University."
+  - degree: "BSc, Biomedical Engineering"
+    org: "Universidad Carlos III de Madrid"
+    dates: "Sep 2018 – Jul 2022"
+    details:
+      - "Ranked in the top 2%. Semester exchange at Nanyang Technological University, Singapore (KA107 Scholarship)."
+      - "Thesis: cerebral perfusion and subclinical cardiovascular disease in middle age (Honours)."
+
+experience:
+  - role: "Affiliated Researcher"
+    org: "ETH Zurich"
+    place: "Zurich, Switzerland"
+    dates: "Jun 2025 – Present"
+    text: "Variational autoencoders and denoising diffusion models for intra-ventricular monophasic action potential signals."
+  - role: "AI/ML Data Scientist"
+    org: "Roche"
+    place: "Basel, Switzerland"
+    dates: "Jun 2025 – Jul 2026"
+    text: "Hierarchical classification and segmentation models for ulcerative colitis endoscopy videos. Also ran annotation strategy, statistical analysis of mucosal features, and large-scale HPC training pipelines."
+  - role: "Affiliated Researcher"
+    org: "Massachusetts Institute of Technology"
+    place: "Cambridge, MA"
+    dates: "Jan 2025 – Aug 2026"
+    text: "Tuberculosis detection from chest X-rays, focused on out-of-distribution detection and robust classification. Built with physicians from the Sri Lanka Ministry of Health and Keralty Clinics (Colombia)."
+  - role: "Graduate Researcher"
+    org: "Harvard Medical School & Brigham and Women's Hospital"
+    place: "Boston, MA"
+    dates: "Sep 2024 – Jul 2025"
+    text: "CT segmentation and statistical shape modeling of aortic valves for patient-specific digital twins, plus ML classifiers for cardiac outcomes."
+  - role: "Data Scientist Intern"
+    org: "Liom AG"
+    place: "Pfäffikon, Switzerland"
+    dates: "Mar 2024 – Oct 2024"
+    text: "Non-invasive glucose monitoring: exploratory analysis of measurement campaigns, spectroscopic metric optimization, and outlier detection on live data streams."
+  - role: "Graduate Researcher"
+    org: "Martinos Center, Harvard Medical School & MGH"
+    place: "Boston, MA"
+    dates: "Sep 2023 – Mar 2024"
+    text: "Resolution- and topology-invariant cortical parcellation via 3D-to-2D projections, with Juan Eugenio Iglesias (LEMoN group)."
+  - role: "Graduate Researcher"
+    org: "Computer Vision Lab, ETH Zurich"
+    place: "Zurich, Switzerland"
+    dates: "Mar 2023 – Aug 2023"
+    text: "Training-free neural network architectures for medical imaging, with Ender Konukoglu (Biomedical Image Computing group)."
+  - role: "Undergraduate Researcher"
+    org: "Spanish National Center for Cardiovascular Research (CNIC)"
+    place: "Madrid, Spain"
+    dates: "Jun 2021 – Jul 2022"
+    text: "MRI/PET brain image analysis pipelines in the PESA cohort, with Dr. Valentín Fuster's group."
+
+awards:
+  - { year: "2025", text: "Spotlight Speaker, Royal Complutense College at Harvard University" }
+  - { year: "2024", text: "Nova 111 List: top 10 engineering students in Spain" }
+  - { year: "2023, 2024", text: "ETH Zurich SEMP Scholarship for research at Harvard University" }
+  - { year: "2022", text: "'la Caixa' Fellowship: full tuition and stipend at any university worldwide (11 of 100 awardees in Engineering & Technology)" }
+  - { year: "2021", text: "KA107+ Scholarship for exchange at NTU Singapore" }
+  - { year: "2021", text: "Spanish Ministry of Education Merit Award" }
+  - { year: "2021", text: "EIT Health Innovation Days: Gold Medal (Spain) and Bronze Medal (Europe)" }
+  - { year: "2021", text: "Engineering Medicine Contest (Madrid): Bronze Medal" }
+  - { year: "2018–2021", text: "Romanillos Foundation Excellence Scholarship" }
+
+service:
+  - { dates: "Nov 2023 – Feb 2024", text: "AI4MED: Corporate Relations Team Lead" }
+  - { dates: "2020 – 2022", text: "TEDxUC3M: Speakers Coordinator, Board of Directors" }
+  - { dates: "2020 – 2022", text: "BEST UC3M: Corporate Relations" }
+  - { dates: "2015 – 2017", text: "Isabel La Católica School: Volunteer Teaching Assistant" }
+
+schools:
+  - "MIT Summer Geometry Initiative, Tutorial Week (2025)"
+  - "UCL Medical Image Computing Summer School, MedICSS (2025)"
+  - "RISE-MICCAI Medical Imaging Summer School (2025)"
+
+skills:
+  - { label: "ML & Data", text: "Python, PyTorch, Lightning, scikit-learn, NumPy, Pandas, OpenCV, Weights & Biases, Hydra" }
+  - { label: "Tools", text: "Git, HPC / Slurm, R, MATLAB, Blender" }
+  - { label: "Languages", text: "Spanish (native), English (native), German (A2), French (A1)" }

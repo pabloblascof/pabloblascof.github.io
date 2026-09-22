@@ -1,48 +1,102 @@
 ---
+layout: modern
 permalink: /
 title: ""
-author_profile: true
-hide_footer: true
-redirect_from: 
+description: "Pablo Blasco Fernandez is a PhD student in EECS at MIT working on AI for healthcare, medical image analysis, and robust machine learning."
+redirect_from:
   - /about/
   - /about.html
 ---
 
-# Hi there, I'm Pablo! 👋
+<section class="hero">
+  <img class="hero__photo" src="{{ '/images/' | append: site.author.avatar | relative_url }}" alt="Portrait of Pablo Blasco Fernandez" width="180" height="180">
+  <div class="hero__text">
+    <p class="eyebrow">PhD Student · MIT EECS</p>
+    <h1 class="hero__name">{{ site.author.name }}</h1>
+    <p class="hero__tagline">I build AI for medical imaging that holds up in real clinics, where data shifts, labels disagree, and robustness matters.</p>
+    <div class="hero__links">
+      <a class="btn btn--primary" href="{{ site.author.cv | relative_url }}"><i class="fa-solid fa-file-arrow-down"></i> CV</a>
+      <a class="btn" href="mailto:{{ site.author.email }}"><i class="fa-solid fa-envelope"></i> Email</a>
+      <a class="btn" href="{{ site.author.googlescholar }}"><i class="ai ai-google-scholar"></i> Scholar</a>
+      <a class="btn" href="https://github.com/{{ site.author.github }}"><i class="fa-brands fa-github"></i> GitHub</a>
+      <a class="btn" href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+    </div>
+  </div>
+</section>
 
-I am an MSc Student in Biomedical Engineering at ETH Zurich fully funded by ['la Caixa' Foundation](https://becarios.fundacionlacaixa.org/es/pablo-blasco-fernandez-B005814), currently exploring the fascinating world of deep learning, medical image analysis and computer vision. I hold a BSc in Biomedical Engineering (top 2%) from Universidad Carlos III de Madrid, where my passion for this field first began.
+<section class="section prose" markdown="1">
 
+I'm a PhD student in **Electrical Engineering and Computer Science at [MIT](https://www.eecs.mit.edu/)**. I work on AI for healthcare and medical image analysis, focusing on **distribution shift, robustness, and clinical deployment**.
 
-## 🧬My experience
+Before MIT, I earned an MSc in Biomedical Engineering from **ETH Zurich** as a ['la Caixa' Fellow](https://becarios.fundacionlacaixa.org/es/pablo-blasco-fernandez-B005814), and a BSc in Biomedical Engineering from **Universidad Carlos III de Madrid** (top 2%). My research has taken me across academia, hospitals, and industry:
 
-My **[CV](files/PabloBlasco_CV_Oct2025.pdf)** can be downloaded here!
+- tuberculosis screening from chest X-rays with the Sri Lanka Ministry of Health (MIT)
+- ulcerative colitis endoscopy models at **Roche**
+- cardiac digital twins at **Harvard Medical School & Brigham and Women's Hospital**
+- cortical parcellation at the **Martinos Center**
+- diffusion models for cardiac signals at **ETH Zurich**
 
-- 💊 [June 2025 – Present] <u>AI/ML Research Intern</u> at **Roche**, developing annotation strategies, hierarchical classification models, and large-scale training pipelines for endoscopy video datasets in Ulcerative Colitis, leveraging HPC environments and reproducible experiment management tools (Hydra, Git, W&B).
+</section>
 
-- 🧪 [May 2025 – Present] <u>Affiliated Researcher</u> at the **Massachusetts Institute of Technology** with [Regina Barzilay](https://www.rbg.mit.edu/) working on robust deep learning pipelines for tuberculosis detection from chest X-rays in collaboration with the Sri Lanka Ministry of Health. Focus on dataset curation, out-of-distribution detection, and reproducible deployment workflows.
+<section class="section">
+  <h2 class="section__title">Research interests</h2>
+  <div class="cards">
+    <div class="card">
+      <i class="fa-solid fa-shield-halved card__icon" aria-hidden="true"></i>
+      <h3>Robust &amp; trustworthy ML</h3>
+      <p>Out-of-distribution detection, distribution shift, and uncertainty for models that meet unseen hospitals and populations.</p>
+    </div>
+    <div class="card">
+      <i class="fa-solid fa-x-ray card__icon" aria-hidden="true"></i>
+      <h3>Medical image analysis</h3>
+      <p>Segmentation, classification, and shape modeling across X-ray, CT, MRI, endoscopy, and physiological signals.</p>
+    </div>
+    <div class="card">
+      <i class="fa-solid fa-hospital card__icon" aria-hidden="true"></i>
+      <h3>Clinical deployment</h3>
+      <p>Working with clinicians on data curation, annotation reliability, and evaluation that reflects real clinical needs.</p>
+    </div>
+  </div>
+</section>
 
-- 🫀 [Sept 2024 – July 2025] <u>Graduate Researcher</u> at **Harvard Medical School & Brigham and Women’s Hospital**, where I performed CT segmentation and statistical shape modeling of aortic valves to create patient-specific digital twins, and developed machine learning classifiers for predicting cardiac outcomes.
+<section class="section">
+  <h2 class="section__title">News</h2>
+  <ul class="news">
+    {% for n in site.data.news limit: 6 %}
+    <li><span class="news__date">{{ n.date }}</span><span class="news__text">{{ n.text | markdownify | remove: '<p>' | remove: '</p>' }}</span></li>
+    {% endfor %}
+  </ul>
+  {% if site.data.news.size > 6 %}
+  <details class="more">
+    <summary>Older news</summary>
+    <ul class="news">
+      {% for n in site.data.news offset: 6 %}
+      <li><span class="news__date">{{ n.date }}</span><span class="news__text">{{ n.text | markdownify | remove: '<p>' | remove: '</p>' }}</span></li>
+      {% endfor %}
+    </ul>
+  </details>
+  {% endif %}
+</section>
 
-- 💻 [March 2024 - Oct 2024] <u>Data Science Intern</u> at **[Liom AG](https://liom.com/)**, working on non-invasive, calibration-free glucose estimation. Member of the Data Analytics Core Team within the Software & Machine Learning Engineering Team (Pandas, Scikit-learn, Mlflow, Numpy, Seaborn, Matplotlib)
+<section class="section">
+  <div class="section__head">
+    <h2 class="section__title">Selected publications</h2>
+    <a class="link-arrow" href="{{ '/publications/' | relative_url }}">All publications <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+  <ol class="pubs">
+    {% for pub in site.data.publications %}{% if pub.selected %}{% include pub-item.html pub=pub %}{% endif %}{% endfor %}
+  </ol>
+</section>
 
-- 🏥 [Sept 2023 - March 2024] <u>Graduate researcher</u> at the **Athinoula A. Martinos Center for Biomedical Imaging**, affiliated to **Harvard University** and **Massachusetts General Hospital**, working in 3D to 2D projections for brain surface segmentation (Python, Pytorch Lightning, Weights and Biases) under the supervision of [Juan Eugenio Iglesias](https://lemon.martinos.org/pi/).
+<section class="section">
+  <div class="section__head">
+    <h2 class="section__title">Experience</h2>
+    <a class="link-arrow" href="{{ '/cv/' | relative_url }}">Full CV <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+  {% include experience-list.html %}
+</section>
 
-- 👁️‍🗨️ [March 2023 - Aug 2023] <u>Graduate researcher</u> at the **Computer Vision Lab of ETH Zurich**, contributing to cutting-edge research at the intersection of computer vision and deep learning trough the use of training-free neural networks (Python, Pytorch, Pandas, OpenCV) under the supervision of [Ender Konukoglu](https://people.ee.ethz.ch/~kender/index.html) .
-
-- ❤️ [Jun 2021 - Jul 2022] <u>Undergraduate Researcher</u> at the **Spanish National Center for Cardiovascular Research (CNIC)**, finding associations between cardiovascular risk factors and cerebral blood flow trough MRI image processing (MATLAB, SPM) and statistical analysis (SPM, R) with Dr. Valentin Fuster under the supervision of [Marta Cortés Canteli](https://scholar.google.com/citations?user=83Pn7kcAAAAJ&hl=en).
-
-## 🌱 Current Interests
-
-- 🏥 Medical imaging and diagnostics: How can we leverage AI for better image-based diagnostics?
-- 💻 Machine learning and AI in healthcare: What tools can make clinician's (and our) lives easier?
-- 📊 Data analysis and visualization in biomedical research: Which infomation is important for our systems to support diagnosis and treatment? How can we improve data integration from multiple sources?
-
-I'm passionate about using technology to make a positive impact on healthcare, and I'm always eager to learn and collaborate on exciting projects. 
-
-## 📫 Get in Touch
-
-📧 You can reach me at [pblasco@ethz.ch](mailto:pblasco@ethz.ch)
-
-🌐 Connect with me on [LinkedIn](https://www.linkedin.com/in/pablo-blasco-fernandez/)
-
-Looking forward to connecting and sharing knowledge with the GitHub community! Let's build a healthier world together. 🌍
+<section class="section contact">
+  <h2 class="section__title">Get in touch</h2>
+  <p>I'm always happy to talk about research and collaborations. Email me at <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> or connect on <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>.</p>
+</section>

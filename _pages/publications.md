@@ -1,20 +1,21 @@
 ---
-layout: archive
+layout: modern
 title: "Publications"
 permalink: /publications/
-author_profile: true
-hide_footer: true
-redirect_from:
-  - /publications
-
+description: "Publications by Pablo Blasco Fernandez on medical image analysis, diffusion models, and AI for healthcare."
 ---
 
-{% include base_path %}
+<header class="page-head">
+  <h1>Publications</h1>
+  <p class="muted">An up-to-date list is always on <a href="{{ site.author.googlescholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a>. <span class="me-key">Highlighted</span> = me.</p>
+</header>
 
-<strong>Pseudo-rendering for Resolution and Topology-Invariant Cortical Parcellation</strong>  
-<em style="margin: 0;">International Workshop on Machine Learning in Medical Imaging (MLMI), In conjunction with MICCAI 2024</em>
-<span style="font-size: 0.6em; margin: 0;">  
-  <strong><em>Pablo Blasco Fernandez</em></strong>, Karthik Gopinath, John Williams-Ramirez, Rogeny Herisse, Lucas Deden-Binder, Dina Zemlyanker, Theressa Connors, Liana Kozanno, Derek Oakley, Bradley Hyman, Sean Young, Juan Eugenio Iglesias  
-  <a href="https://doi.org/10.1007/978-3-031-73290-4_8">https://doi.org/10.1007/978-3-031-73290-4_8</a>  
-  <em>(Soon in arXiv!)</em>
-</span>
+{% assign by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+{% for group in by_year %}
+<section class="section section--tight">
+  <h2 class="year">{{ group.name }}</h2>
+  <ol class="pubs">
+    {% for pub in group.items %}{% include pub-item.html pub=pub %}{% endfor %}
+  </ol>
+</section>
+{% endfor %}
