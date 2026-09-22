@@ -43,11 +43,6 @@ Before MIT, I earned an MSc in Biomedical Engineering from **ETH Zurich** as a [
   <h2 class="section__title">Research interests</h2>
   <div class="cards">
     <div class="card">
-      <i class="fa-solid fa-shield-halved card__icon" aria-hidden="true"></i>
-      <h3>Robust &amp; trustworthy ML</h3>
-      <p>Out-of-distribution detection, distribution shift, and uncertainty for models that meet unseen hospitals and populations.</p>
-    </div>
-    <div class="card">
       <i class="fa-solid fa-x-ray card__icon" aria-hidden="true"></i>
       <h3>Medical image analysis</h3>
       <p>Segmentation, classification, and shape modeling across X-ray, CT, MRI, endoscopy, and physiological signals.</p>
@@ -56,6 +51,11 @@ Before MIT, I earned an MSc in Biomedical Engineering from **ETH Zurich** as a [
       <i class="fa-solid fa-hospital card__icon" aria-hidden="true"></i>
       <h3>Clinical deployment</h3>
       <p>Working with clinicians on data curation, annotation reliability, and evaluation that reflects real clinical needs.</p>
+    </div>
+    <div class="card">
+      <i class="fa-solid fa-shield-halved card__icon" aria-hidden="true"></i>
+      <h3>Robust &amp; trustworthy ML</h3>
+      <p>Out-of-distribution detection, distribution shift, and uncertainty for models that meet unseen hospitals and populations.</p>
     </div>
   </div>
 </section>
