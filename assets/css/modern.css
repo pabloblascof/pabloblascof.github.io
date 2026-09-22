@@ -394,6 +394,11 @@ main.wrap { padding-block: 2.5rem 4rem; }
   border: 1px solid var(--border);
   background: #fff;
 }
+.pub--wide { padding: 1rem; }
+.pub--wide .pub__thumb { aspect-ratio: auto; max-width: none; }
+.pub--wide .pub__thumb img { height: auto; object-fit: contain; }
+.pub--wide .pub__body { padding: 0 .25rem; }
+.pub:hover.pub--wide .pub__thumb img { transform: none; }
 .pub__thumb img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .3s ease; }
 .pub:hover .pub__thumb img { transform: scale(1.04); }
 .pub__badge {

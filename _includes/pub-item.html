@@ -1,5 +1,5 @@
 {% assign pub = include.pub %}
-<li class="pub{% if pub.thumb %} pub--thumb{% endif %}">
+<li class="pub{% if pub.thumb %}{% if pub.thumb_wide %} pub--wide{% else %} pub--thumb{% endif %}{% endif %}">
   {% if pub.thumb %}
   <figure class="pub__thumb"{% if pub.thumb_note %} title="{{ pub.thumb_note }}"{% endif %}>
     {% if pub.url %}<a href="{{ pub.url }}" tabindex="-1" aria-hidden="true">{% endif %}<img src="{{ '/images/pubs/' | append: pub.thumb | relative_url }}" alt="{% if pub.thumb_note %}{{ pub.thumb_note }}: {% endif %}{{ pub.title }}" loading="lazy" width="480" height="360">{% if pub.url %}</a>{% endif %}

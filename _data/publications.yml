@@ -2,6 +2,7 @@
 # `me` marks which author string gets highlighted. `type`: journal | conference | abstract
 # `selected: true` shows the paper on the home page.
 # `url`: where the title links (DOI). `thumb`: image in /images/pubs/ (≈4:3). `thumb_note` shows on hover, e.g. to mark a schematic.
+# `thumb_wide: true` for very wide figures: shown as a full-width banner on top of the card.
 
 - title: "Antithetic Sampling Enhanced Probabilistic Diffusion for Denoising Cardiac Time Series"
   authors: "Samuel Ruipérez-Campillo, Pablo Blasco Fernandez, Moritz Rau, Prasanth Ganesan, Sabyasachi Bandyopadhyay, Albert J. Rogers, Maarten Z.H. Kolk, Fleur V.Y. Tjong, Sanjiv M. Narayan, Julia E. Vogt"
@@ -48,7 +49,8 @@
   venue: "Machine Learning in Medical Imaging (MLMI 2024), in conjunction with MICCAI 2024 · pp. 74–84"
   venue_short: "MLMI @ MICCAI 2024"
   url: "https://doi.org/10.1007/978-3-031-73290-4_8"
-  thumb: "mlmi2024-prir.jpg"
+  thumb: "mlmi2024-prir-pipeline.png"
+  thumb_wide: true
   year: 2024
   type: conference
   selected: true
