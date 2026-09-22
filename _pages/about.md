@@ -27,7 +27,7 @@ redirect_from:
 
 <section class="section prose" markdown="1">
 
-I'm a PhD student in **Electrical Engineering and Computer Science at [MIT](https://www.eecs.mit.edu/)**, advised by [Prof. Regina Barzilay](https://www.rbg.mit.edu/). I work on AI for healthcare and medical image analysis, focusing on **distribution shift, robustness, and clinical deployment**.
+I'm a PhD student in **Electrical Engineering and Computer Science at [MIT](https://www.eecs.mit.edu/)**, advised by [Prof. Regina Barzilay](https://www.rbg.mit.edu/). I work on **AI for healthcare and medical image analysis**, focusing on **clinical deployment, distribution shift, and robustness**.
 
 Before MIT, I earned an MSc in Biomedical Engineering from **ETH Zurich** as a ['la Caixa' Fellow](https://becarios.fundacionlacaixa.org/es/pablo-blasco-fernandez-B005814), and a BSc in Biomedical Engineering from **Universidad Carlos III de Madrid** (top 2%). My research has taken me across academia, hospitals, and industry:
 
