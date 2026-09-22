@@ -1,38 +1,41 @@
 # Publications, newest first. Synced with Google Scholar (Sept 2026).
 # `me` marks which author string gets highlighted. `type`: journal | conference | abstract
 # `selected: true` shows the paper on the home page.
-# `thumb`: image in /images/pubs/ (≈4:3). `thumb_note` shows on hover, e.g. to mark a schematic.
+# `url`: where the title links (DOI). `thumb`: image in /images/pubs/ (≈4:3). `thumb_note` shows on hover, e.g. to mark a schematic.
 
 - title: "Antithetic Sampling Enhanced Probabilistic Diffusion for Denoising Cardiac Time Series"
   authors: "Samuel Ruipérez-Campillo, Pablo Blasco Fernandez, Moritz Rau, Prasanth Ganesan, Sabyasachi Bandyopadhyay, Albert J. Rogers, Maarten Z.H. Kolk, Fleur V.Y. Tjong, Sanjiv M. Narayan, Julia E. Vogt"
   venue: "IEEE Journal of Biomedical and Health Informatics (JBHI)"
   venue_short: "IEEE JBHI"
-  thumb: "jbhi2026-antithetic.svg"
-  thumb_note: "Schematic illustration"
+  url: "https://doi.org/10.1109/JBHI.2026.3705976"
+  thumb: "jbhi2026-denoising.jpg"
   year: 2026
   type: journal
-  note: "Accepted, June 2026"
+  note: "Open access"
   selected: true
   links:
+    - { label: "Paper", url: "https://doi.org/10.1109/JBHI.2026.3705976", icon: "fa-solid fa-file-lines" }
     - { label: "Code", url: "https://github.com/SamuelRuiperezCampillo/S_Ruiperez-Campillo_et_al_IEEE-JBHI_Antithetic_Sampling_cDDPM_for_Cardiac_Time_Series", icon: "fa-brands fa-github" }
 
 - title: "Quantifying the Spatial Inter-Rater Reliability of Mucosal Lesion Annotations in Ulcerative Colitis"
   authors: "Pablo Blasco Fernandez, Peter Bossuyt, Marco Daperno, Uri Kopylov, Yoram Bouhnik, Konstantinos Karmiris, Fethallah Benmansour, Benjamin Gutierrez Becker, Stefan Fraessle, Bernhard Stimpel, Steven Levitte, Alvaro Gomariz"
-  venue: "Digestive Disease Week (DDW) 2026 · Gastrointestinal Endoscopy 103(5), S-550–S-551"
+  venue: "Digestive Disease Week (DDW) 2026 · Gastroenterology 170(6), S-550–S-551"
   venue_short: "DDW 2026"
+  url: "https://doi.org/10.1016/S0016-5085(26)01605-7"
   thumb: "ddw2026-spatial-irr.svg"
   thumb_note: "Schematic illustration"
   year: 2026
   type: abstract
   selected: true
-  links: []
+  links:
+    - { label: "Paper", url: "https://doi.org/10.1016/S0016-5085(26)01605-7", icon: "fa-solid fa-file-lines" }
 
 - title: "Quantifying Inter-Rater Reliability of Mucosal Features in Ulcerative Colitis Endoscopy"
   authors: "Pablo Blasco Fernandez, Peter Bossuyt, Marco Daperno, Uri Kopylov, Yoram Bouhnik, Konstantinos Karmiris, Fethallah Benmansour, Benjamin Gutierrez Becker, Stefan Fraessle, Bernhard Stimpel, Steven Levitte, Alvaro Gomariz"
   venue: "ECCO 2026 · Journal of Crohn's and Colitis 20(Supplement 1), jjaf231.052"
   venue_short: "ECCO 2026"
-  thumb: "ecco2026-irr.svg"
-  thumb_note: "Schematic illustration"
+  url: "https://doi.org/10.1093/ecco-jcc/jjaf231.052"
+  thumb: "ecco2026-kappa.jpg"
   year: 2026
   type: abstract
   note: "Oral Spotlight"
@@ -44,6 +47,7 @@
   authors: "Pablo Blasco Fernandez, Karthik Gopinath, John Williams-Ramirez, Rogeny Herisse, Lucas Deden-Binder, Dina Zemlyanker, Theressa Connors, Liana Kozanno, Derek Oakley, Bradley Hyman, Sean Young, Juan Eugenio Iglesias"
   venue: "Machine Learning in Medical Imaging (MLMI 2024), in conjunction with MICCAI 2024 · pp. 74–84"
   venue_short: "MLMI @ MICCAI 2024"
+  url: "https://doi.org/10.1007/978-3-031-73290-4_8"
   thumb: "mlmi2024-prir.jpg"
   year: 2024
   type: conference

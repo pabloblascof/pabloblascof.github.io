@@ -130,11 +130,11 @@ main.wrap { padding-block: 2.5rem 4rem; }
   flex-wrap: wrap;
 }
 .nav__brand {
-  font-family: var(--serif);
+  font-family: var(--font);
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--text);
-  letter-spacing: -.01em;
+  letter-spacing: -.015em;
 }
 .nav__brand:hover { text-decoration: none; color: var(--accent); }
 .nav__links { display: flex; align-items: center; gap: .25rem; }
@@ -410,6 +410,8 @@ main.wrap { padding-block: 2.5rem 4rem; }
 .pub__badge--conference { background: var(--conf-soft); color: var(--conf); }
 .pub__badge--abstract { background: var(--abstract-soft); color: var(--abstract); }
 .pub__title { font-size: 1.02rem; font-weight: 600; margin-bottom: .3rem; color: var(--text); }
+.pub__title a { color: inherit; }
+.pub__title a:hover { color: var(--accent); text-decoration: underline; text-decoration-color: var(--accent); }
 .pub__authors { font-size: .87rem; color: var(--text-2); margin-bottom: .2rem; }
 .pub__authors .me, .me-key {
   color: var(--text);
