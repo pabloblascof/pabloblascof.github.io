@@ -13,6 +13,7 @@ redirect_from:
   <div class="hero__text">
     <p class="eyebrow">PhD Student · MIT EECS</p>
     <h1 class="hero__name">{{ site.author.name }}</h1>
+    <p class="hero__meta"><span><i class="fa-solid fa-building-columns"></i>MIT EECS · Barzilay Group</span><span><i class="fa-solid fa-location-dot"></i>Cambridge, MA</span></p>
     <p class="hero__tagline">I build AI for medical imaging that holds up in real clinics, where data shifts, labels disagree, and robustness matters.</p>
     <div class="hero__links">
       <a class="btn btn--primary" href="{{ site.author.cv | relative_url }}"><i class="fa-solid fa-file-arrow-down"></i> CV</a>
@@ -30,10 +31,10 @@ I'm a PhD student in **Electrical Engineering and Computer Science at [MIT](http
 
 Before MIT, I earned an MSc in Biomedical Engineering from **ETH Zurich** as a ['la Caixa' Fellow](https://becarios.fundacionlacaixa.org/es/pablo-blasco-fernandez-B005814), and a BSc in Biomedical Engineering from **Universidad Carlos III de Madrid** (top 2%). My research has taken me across academia, hospitals, and industry:
 
-- tuberculosis screening from chest X-rays with the Sri Lanka Ministry of Health at **MIT**
+- tuberculosis screening from chest X-rays at **MIT**
 - ulcerative colitis endoscopy models at **Roche**
 - cardiac digital twins at **Harvard Medical School & Brigham and Women's Hospital**
-- cortical parcellation at the **Martinos Center**
+- brain cortical parcellation at the **Athinoula A. Martinos Center for Biomedical Imaging** (MGH & Harvard Medical School)
 - diffusion models for cardiac signals at **ETH Zurich**
 
 </section>
@@ -61,21 +62,13 @@ Before MIT, I earned an MSc in Biomedical Engineering from **ETH Zurich** as a [
 
 <section class="section">
   <h2 class="section__title">News</h2>
-  <ul class="news">
-    {% for n in site.data.news limit: 6 %}
-    <li><span class="news__date">{{ n.date }}</span><span class="news__text">{{ n.text | markdownify | remove: '<p>' | remove: '</p>' }}</span></li>
-    {% endfor %}
-  </ul>
-  {% if site.data.news.size > 6 %}
-  <details class="more">
-    <summary>Older news</summary>
+  <div class="scrollbox" tabindex="0" aria-label="News">
     <ul class="news">
-      {% for n in site.data.news offset: 6 %}
+      {% for n in site.data.news %}
       <li><span class="news__date">{{ n.date }}</span><span class="news__text">{{ n.text | markdownify | remove: '<p>' | remove: '</p>' }}</span></li>
       {% endfor %}
     </ul>
-  </details>
-  {% endif %}
+  </div>
 </section>
 
 <section class="section">
@@ -93,7 +86,9 @@ Before MIT, I earned an MSc in Biomedical Engineering from **ETH Zurich** as a [
     <h2 class="section__title">Experience</h2>
     <a class="link-arrow" href="{{ '/cv/' | relative_url }}">Full CV <i class="fa-solid fa-arrow-right"></i></a>
   </div>
-  {% include experience-list.html %}
+  <div class="scrollbox scrollbox--tall" tabindex="0" aria-label="Experience">
+    {% include experience-list.html %}
+  </div>
 </section>
 
 <section class="section contact">
