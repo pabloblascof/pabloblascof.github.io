@@ -5,6 +5,7 @@ education:
     org: "Massachusetts Institute of Technology (MIT)"
     dates: "Sep 2026 – Present"
     details:
+      - "Advisor: Prof. Regina Barzilay."
       - "AI for healthcare and medical image analysis: distribution shift, robustness, and clinical deployment in real settings."
   - degree: "MSc, Biomedical Engineering"
     org: "ETH Zurich"
@@ -34,7 +35,7 @@ experience:
     org: "Massachusetts Institute of Technology"
     place: "Cambridge, MA"
     dates: "Jan 2025 – Aug 2026"
-    text: "Tuberculosis detection from chest X-rays, focused on out-of-distribution detection and robust classification. Built with physicians from the Sri Lanka Ministry of Health and Keralty Clinics (Colombia)."
+    text: "Tuberculosis detection from chest X-rays, focused on out-of-distribution detection and robust classification, with Regina Barzilay. Built with physicians from the Sri Lanka Ministry of Health and Keralty Clinics (Colombia)."
   - role: "Graduate Researcher"
     org: "Harvard Medical School & Brigham and Women's Hospital"
     place: "Boston, MA"
